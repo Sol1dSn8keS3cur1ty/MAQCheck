@@ -3,14 +3,15 @@ This is a simple script that can be used to remotely authenticate to an LDAP ser
 
 ## Dependencies
 
-'''
+```
 pip3 install -r requirements.txt
-'''
+```
 
 ## Usage
 
-'''
-usage: maqcheck.py [-h] --username USERNAME --password PASSWORD --domain DOMAIN
+
+
+```usage: maqcheck.py [-h] --username USERNAME --password PASSWORD --domain DOMAIN'
 
 Script to check for the MAQ - Machine Account Quota
 
@@ -22,4 +23,4 @@ options:
                         Password
   --domain DOMAIN, -d DOMAIN
                         Domain
-'''
+```
